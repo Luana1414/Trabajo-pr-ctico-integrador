@@ -1,19 +1,23 @@
 .mi-container{
-    width: 100%;
-    height: auto;
-
-}
-
-.mi-container p{
-    font-size: 20px;
-    color:white;
-    text-align: right;
+    background: linear-gradient(to right, rgb(0 0 0/ .5),rgb(0 0 0/ .5)),url(../Img/hawaii.jpg);
+    width: 100vw; 
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    text-align: end;
+    background-size: cover;
+    background-position: center;
     padding-left: 50%;
-    padding-right: 20px;
-    padding-top: 50%;
-    padding-bottom: 20%;
+    padding-right: 10%;
+    
 }
-span{
-    font-weight: bold;
-    font-size: 20px;
+.mi-container h1,p{
+    color: white;
+    font-style: inherit;
+    font-size: 16px;
 }
+.mi-container h1{
+    font-size: 18px;
+}
+
+
