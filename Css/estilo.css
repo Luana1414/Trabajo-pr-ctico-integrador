@@ -1,1 +1,19 @@
+.mi-container{
+    width: 100%;
+    height: auto;
 
+}
+
+.mi-container p{
+    font-size: 20px;
+    color:white;
+    text-align: right;
+    padding-left: 50%;
+    padding-right: 20px;
+    padding-top: 50%;
+    padding-bottom: 20%;
+}
+span{
+    font-weight: bold;
+    font-size: 20px;
+}
