@@ -5,32 +5,65 @@
     display: flex;
     align-items: center;
     text-align: end;
-    background-size: cover;
-    background-position: center;
     padding-left: 50%;
     padding-right: 10%;
-    background-repeat: no-repeat;
-
 }
-.mi-container h1,p{
+
+.mi-container h1{
+    color: white;
+    margin-top: 75%;
+}
+
+.mi-container p {
     color: white;
     font-style: inherit;
     font-size: 16px;
+    text-align: right;
 }
-.mi-container h1{
-    font-size: 18px;
+
+.btn-warning{
+    font-weight: bold;
+    padding-top:0%;
+    padding-bottom: 0%;
 }
-.mi-container button{
+
+.btn-info{
     color: white;
+    font-weight: bold;
+    padding-top:0%;
+    padding-bottom: 0%;
 }
-.btn-light{
-    background-color:transparent;
+
+.btn-danger{
+    color: white;
+    font-weight: bold;
+    padding-top:0%;
+    padding-bottom: 0%;
 }
-h5 ,h3{
+
+.btn-secondary{
+    color: white;
+    font-weight: bold;
+    padding-top:0%;
+    padding-bottom: 0%;
+}
+
+.títulos{
+    color: black;
     text-align: center;
-}
-h5{
-    font-size: 14px;
     margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.card-title{
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+.card-text{
+    text-align: justify;
+}
+
+.row{
+    align-content: center;
 }
 
