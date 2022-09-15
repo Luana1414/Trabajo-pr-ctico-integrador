@@ -26,4 +26,11 @@
 .btn-light{
     background-color:transparent;
 }
+h5 ,h3{
+    text-align: center;
+}
+h5{
+    font-size: 14px;
+    margin-top: 10px;
+}
 
