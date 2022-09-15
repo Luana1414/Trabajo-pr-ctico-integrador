@@ -9,7 +9,8 @@
     background-position: center;
     padding-left: 50%;
     padding-right: 10%;
-    
+    background-repeat: no-repeat;
+
 }
 .mi-container h1,p{
     color: white;
@@ -19,5 +20,10 @@
 .mi-container h1{
     font-size: 18px;
 }
-
+.mi-container button{
+    color: white;
+}
+.btn-light{
+    background-color:transparent;
+}
 
