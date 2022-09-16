@@ -21,6 +21,11 @@
     text-align: right;
 }
 
+.btn-light{
+    color: white;
+    background-color: transparent;
+}
+
 .btn-warning{
     font-weight: bold;
     padding-top:0%;
@@ -52,7 +57,11 @@
     color: black;
     text-align: center;
     margin-top: 10px;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.títulos h5{
+    font-size: 12px;
 }
 
 .card-title{
@@ -67,3 +76,7 @@
     align-content: center;
 }
 
+p .btn-secondary{
+    background-color: transparent;
+    font-weight: lighter;
+}
