@@ -62,6 +62,7 @@
 
 .títulos h5{
     font-size: 12px;
+    color:#566573 ;
 }
 
 .card-title{
@@ -79,4 +80,10 @@
 p .btn-secondary{
     background-color: transparent;
     font-weight: lighter;
+    font-family: Arial;
 }
+span{
+    text-decoration: underline;
+    text-decoration-style: dotted;
+}
+
