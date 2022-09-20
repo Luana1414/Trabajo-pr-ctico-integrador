@@ -69,6 +69,7 @@
     margin-top: 5px;
     margin-bottom: 15px;
 }
+
 .card-text{
     text-align: justify;
 }
@@ -82,8 +83,77 @@ p .btn-secondary{
     font-weight: lighter;
     font-family: Arial;
 }
+
 span{
     text-decoration: underline;
     text-decoration-style: dotted;
 }
+
+.form {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+.nombre {
+    width: 50%;
+    height: 30px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 12px;
+    margin-right: 10px;
+}
+
+.apellido{
+    width: 50%;
+    height: 30px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 12px;
+    margin-left: 10px;
+}
+
+
+.area-texto{
+    margin-bottom: 5px;
+}
+
+h6{
+    font-size: 14px;
+    color:#566573 ;
+    text-align: left;
+    padding-left: 0%;
+}
+
+.enviar{
+    background-color: #2bb111 ;
+    border: none;
+    color: white;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    height: 40px;
+    width: 100%;
+    padding-left: 0%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
