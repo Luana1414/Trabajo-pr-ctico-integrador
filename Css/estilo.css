@@ -21,6 +21,12 @@
     text-align: right;
 }
 
+.buttons{
+    display: flex;
+    gap: 10px;
+    justify-content: end;
+}
+
 .btn-light{
     color: white;
     background-color: transparent;
