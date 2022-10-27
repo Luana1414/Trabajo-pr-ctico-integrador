@@ -10,7 +10,6 @@
 </head>
 
 <body>
-
   <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">
@@ -43,8 +42,8 @@
     </div>
   </nav>
 
-<div class="row justify-content-center container-fluid mt-3">
-    <div class="card border-primary mb-3" style="max-width: 18rem; text-align: center; margin-right: 10px;">
+  <div class="row justify-content-center container-fluid mt-3">
+    <div class="card border-primary mb-3 rounded-0" style="max-width: 18rem; text-align: center; margin-right: 10px;">
         <div class=" card-body text-dark ">
             <h5 class="card-title">Estudiante</h5>
             <p class="card-text">Tienen un descuento</p>
@@ -52,7 +51,7 @@
             <p class="text-secondary">* presentar documentación</p>
         </div>
     </div>
-    <div class="card border-success mb-3" style="max-width: 18rem; text-align: center;margin-left: 10px; margin-right: 10px;">
+    <div class="card border-success mb-3 rounded-0 " style="max-width: 18rem; text-align: center;margin-left: 10px; margin-right: 10px;">
         <div class="card-body text-dark ">
             <h5 class="card-title">Trainee</h5>
             <p class="card-text">Tienen un descuento</p>
@@ -60,7 +59,7 @@
             <p class="text-secondary">* presentar documentación</p>
         </div>
     </div>
-    <div class="card border-warning mb-3" style="max-width: 18rem; text-align: center;margin-left: 10px; ">
+    <div class="card border-warning mb-3 rounded-0" style="max-width: 18rem; text-align: center;margin-left: 10px; ">
         <div class="card-body text-dark">
             <h5 class="card-title">Junior</h5>
             <p class="card-text">Tienen un descuento</p>
@@ -71,22 +70,22 @@
 
     <h1 style="text-align: center; font-size: 16px;">Venta</h1>
     <h1 style="text-align: center; font-size: 32px;">VALOR DE TICKET $200</h1>
-    
 
-      <div class="col-md-4; d-flex" style=" max-width: 28%; text-align: center">
-        <input type="text" class="form-control" placeholder="Nombre" aria-label="First name">
-      </div>
-      <div class="col-md-4; d-flex" style=" max-width: 28%; text-align: center">
-        <input type="text" class="form-control" placeholder="Apellido" aria-label="Last name">
-      </div>
-
-
-
-
+    <div class="input-group mb-3 container-fluid" style="max-width: 60rem">
+      <input type="text" class="form-control rounded-0" placeholder="Nombre" aria-label="First name" style="margin-right: 10px; margin-top: 10px;margin-bottom: 10px;">
+      <input type="text" class="form-control rounded-0" placeholder="Apellido" aria-label="Last name" style="margin-left: 10px; margin-top: 10px;margin-bottom: 10px">
+      <input type="email" class="form-control rounded-0" placeholder="Correo"style="width:56rem; margin-top: 10px; margin-bottom: 10px " >
+      <label style="width: 48%;margin-right: 10px; margin-top: 5px;margin-bottom: 10px; " >Cantidad</label>
+      <label style="width: 48%; margin-left: 10px;margin-top: 5px; margin-bottom: 5px;">Categoría</label>
+      <input type="number" class="form-control" id="autoSizingInput" placeholder="cantidad" style="margin-right: 10px">
+      <select class="form-select rounded-0" id="autoSizingSelect" style="margin-left: 10px;">
+        <option value="1">Estudiante</option>
+        <option value="2">Trainee</option>
+        <option value="3">Junior</option>
+      </select>
     </div>
+  </div>
 
-
-</div>
 
   </body>
 </html>
