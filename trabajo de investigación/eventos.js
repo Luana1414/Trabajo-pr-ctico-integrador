@@ -23,17 +23,82 @@ function valorFinal() {
     //console.log(valorJun)
 
 
-        if (categoria == `Estudiante`) {
-            document.getElementById(`totalApagar`).innerHTML = `Total a pagar $ ` + valorEst;
-        } else if (categoria == `Trainee`) {
-            document.getElementById(`totalApagar`).innerHTML = `Total a pagar $ ` + valorTrain;
-        } else if (categoria == `Junior`) {
-            document.getElementById(`totalApagar`).innerHTML = `Total a pagar $ ` + valorJun;
+    if (categoria != `Estudiante` && categoria != `Trainee` && categoria != `Junior` && cantidadTickets == 0) {
+        //console.log(`categoria y num inv`);
+        window.alert(`Seleccione un categoría y un número entero positivo, distinto de cero.`);
+    } else{
+        if (categoria != `Estudiante` && categoria != `Trainee` && categoria != `Junior` && cantidadTickets < 0) {
+            //console.log(`categoria y num inv`);
+            window.alert(`Seleccione un categoría y un número entero positivo, distinto de cero.`);
+        } else {
+            if  (categoria == `Estudiante` && cantidadTickets == 0) {
+                //console.log(` num inv`);
+                window.alert(`Seleccione un número entero positivo, distinto de cero.`);
+            } else {
+                if (categoria == `Estudiante` && cantidadTickets < 0) {
+                    //console.log(` num inv`);
+                    window.alert(`Seleccione un número entero positivo, distinto de cero.`);
+                } else {
+                    if (categoria == `` && cantidadTickets > 0 ) {
+                        //console.log(`categoria inv`);
+                        window.alert(`Seleccione un categoría`);
+                    } else{
+                        if (categoria == `` && cantidadTickets < 0 ) {
+                            //console.log(`categoria inv`);
+                            window.alert(`Seleccione un categoría`);
+                        } else {
+                            if (categoria == `Estudiante` && cantidadTickets > 0) {
+                                //console.log(`entrada estudiante`);
+                                document.getElementById(`totalApagar`).innerHTML = `Total a pagar $ ` + valorEst;
+                            } else{
+                                if (categoria == `Trainee` && cantidadTickets == 0){
+                                    //console.log(` num inv`);
+                                    window.alert(`Seleccione un número entero positivo, distinto de cero.`);
+                                } else {
+                                    if (categoria == `Trainee` && cantidadTickets < 0) {
+                                        //console.log(` num inv`);
+                                        window.alert(`Seleccione un número entero positivo, distinto de cero.`);
+                                    } else {
+                                        if (categoria == `Trainee` && cantidadTickets > 0) {
+                                            //console.log(`entrada estudiante`);
+                                            document.getElementById(`totalApagar`).innerHTML = `Total a pagar $ ` + valorTrain;
+                                        } else {
+                                            if (categoria == `Junior` && cantidadTickets == 0){
+                                                //console.log(` num inv`);
+                                                window.alert(`Seleccione un número entero positivo, distinto de cero.`);
+                                            } else {
+                                                if (categoria == `Junior` && cantidadTickets < 0) {
+                                                    //console.log(` num inv`);
+                                                    window.alert(`Seleccione un número entero positivo, distinto de cero.`);
+                                                } else {
+                                                    if (categoria == `Junior` && cantidadTickets > 0) {
+                                                        //console.log(`entrada estudiante`);
+                                                        document.getElementById(`totalApagar`).innerHTML = `Total a pagar $ ` + valorJun;
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
         }
     }
+}
+
 
  btnResumen.onclick = valorFinal;
 
-function borrar(){
-    document.getElementById()
+function Borrar (){
+    document.getElementById(`iNombre`).value = ``;
+    document.getElementById(`iApellido`).value = ``;
+    document.getElementById(`iCorreo`).value = ``;
+    document.getElementById(`categoria`).value = ``;
+    document.getElementById(`cantTickets`).value = ``;
+    document.getElementById(`totalApagar`).innerHTML= `Total a pagar $`;
 }
+
+btnBorrar.onclick = Borrar; 
